@@ -37,7 +37,7 @@
 
 > for(j in 1:4){for(i in 1:2){mat[i,j]<- summary(lm(df[,i] ~ category,data=df))$coef["categoryB",j]}}
 
-
+#If the column is in the middle of the data, you can write:mat[(i-N),j]
 
 # Define row and column names
 
