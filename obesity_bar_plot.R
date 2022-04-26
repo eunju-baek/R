@@ -1,4 +1,4 @@
-#Create a barplot according to GPS quintile groups
+#Create a GPS percentage barplot stratified by clinical obesity category
 
 
 library(ggplot2)
