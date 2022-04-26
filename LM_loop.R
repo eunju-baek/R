@@ -26,6 +26,9 @@
 19     19   1.59        B
 20     20   1.68        B
 
+
+# Create empty matrix. ncol = numer of variables; nrow = number of statistics
+
 > mat <- matrix(nrow=2,ncol=4)
 > mat
      [,1] [,2] [,3] [,4]
