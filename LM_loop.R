@@ -1,3 +1,5 @@
+#example data frame
+
 > df <- data.frame(score1 = c(1:20),score2=c(2.5,2.49,2.51,2.59,2.56,2.61,2.86,2.7,2.69,2.76,1.44,1.44,1.43,1.4,1.49,1.56,1.78,1.62,1.59,1.68),
 + category = c(rep("A",10),rep("B",10)))
 
@@ -29,6 +31,9 @@
      [,1] [,2] [,3] [,4]
 [1,]   NA   NA   NA   NA
 [2,]   NA   NA   NA   NA
+
+
+#Be careful about variable names (especially word spacing)
 
 > for(j in 1:4){for(i in 1:2){mat[i,j]<- summary(lm(df[,i] ~ category,data=df))$coef["categoryB",j]}}
 
