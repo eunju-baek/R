@@ -1,3 +1,5 @@
+library(dplyr)
+
 # Create an empty matrix for saving summary statistics. ncol = numer of variables; nrow = number of statistics
 
 mat <- matrix(ncol=4,nrow=21)
