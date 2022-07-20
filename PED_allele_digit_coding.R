@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 argv <- commandArgs(trainingOnly = TRUE)
 pheno = argv[1]
 ped = argv[2]
